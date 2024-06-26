@@ -14,7 +14,7 @@ In this process, I use virtual ETLs job to create transformation of the datasets
 
 Here is the picture to describe my transformation
 
-![ETLs](./images/ETLs.jpg)
+![ETLs](./images/ETLs.png)
 
 **NOTE**: In this transformation I used Glue Databrew to transform my data, so you need to care about the IAM role to have permissions in Databrew and S3.
 
