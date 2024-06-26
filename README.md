@@ -5,7 +5,7 @@ Using AWS Glue Crawler to scan data in S3 Bucket to infer informations and schem
 
 The architecture of the project to understand about AWS Glue,S3 ,AWS Athena
 
-![Architecture](./images/Architecture.png)
+![Architecture](./images/Architecture.jpg)
 
 
 
