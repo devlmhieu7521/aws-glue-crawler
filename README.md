@@ -8,6 +8,15 @@ The architecture of the project to understand about AWS Glue,S3 ,AWS Athena
 ![Architecture](./images/Architecture.jpg)
 
 
+## Glue ETL jobs
+
+In this process, I use virtual ETLs job to create transformation of the datasets that I would to transform
+
+Here is the picture to describe my transformation
+
+![ETLs](./images/ETLs.jpg)
+
+**NOTE**: In this transformation I used Glue Databrew to transform my data, so you need to care about the IAM role to have permissions in Databrew and S3.
 
 ## Glue Crawler
 
@@ -50,6 +59,16 @@ After, Glue Crawler finish, the schema will be recorded in Glue Data Catalog. It
 The schema of the data source:
 
 ![Schema](./images/schema.png)
+
+## AWS Glue Workflow
+
+After I created Glue Crawler and Glue ETLs jobs.
+
+Now I wil create a workflow to have a full pipeline and added trigger to run it automatically.
+
+Here is my workflow:
+
+![Workflow](./images/workflow.png)
 
 ## AWS Athena
 
