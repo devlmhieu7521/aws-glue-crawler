@@ -80,6 +80,8 @@ After, AWS Glue Crawler scans the data source and stores the information and met
 
 Finally, Here is the result after I use:
 
+![NOTE](./images/query_data_in_athena.png)
+
 - S3 for saving raw data.
 - AWS Glue Crawler to scan the data to get the information and metadata.
 - Then, AWS Athena to retrieve the data source.
